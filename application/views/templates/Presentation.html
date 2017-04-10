@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="col-lg-12 margin-tb">
+        <div class="pull-left">
+            <h1>Presentation</h1>
+        </div>
+    </div>
+</div>
+
+<table class="table table-bordered pagin-table">
+    <thead>
+        <tr>
+            <th> folderName </th>
+            <th> year </th>
+            <th> countryCode </th>
+            <th> svnLogin </th>
+            <th> repositoryDate </th>
+            <th> importDate </th>
+            <th> Group </th>
+            <th> status </th>
+            <th> Reviews </th>
+            <th> ar </th>
+            <th> p </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="x in data">
+            <td> {{x.folderName}} </td>
+            <td> {{x.year}} </td>
+            <td> {{x.countryCode}} </td>
+            <td> {{x.svnLogin}} </td>
+            <td> {{x.repositoryDate}} </td>
+            <td> {{x.importDate}} </td>
+            <td> {{x.Group}} </td>
+            <td> {{x.status}} </td>
+            <td> {{x.Reviews}} </td>
+            <td> {{x.ar}} </td>
+            <td> {{x.p}} </td>
+        </tr>
+    </tbody>
+</table>

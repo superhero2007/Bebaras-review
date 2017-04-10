@@ -1,0 +1,134 @@
+How to use this file: 
+- Update the svn
+- Leave the headers (like current:) intact, 
+  so the file can be processed automatically.
+- Add your valued opinion
+- Commit to the svn
+
+Explanation:
+============
+
+review by: Your Name
+current: A number from 1 (completely unsuitable) to 6 (excellent) to
+rate the current state of the task.
+
+potential: A number from 1 to 6 to rate what you think can be made out
+of this task.
+
+comment: Optional comments on how to improve the task
+
+
+----------------------------------
+review by: Rostyslav Shpakovych 
+current: 4
+potential: 
+comment: 
+
+
+----------------------------------
+review by: Mauro Torelli
+current: 5
+potential: 6
+comment: Nice task. The picture, however, is not useful and misleading.
+
+
+----------------------------------
+review by: Zsuzsa Pluhár
+current: 6
+potential:6 
+comment: 
+
+
+----------------------------------
+review by: Dan Lessner (author)
+current: 
+potential: 
+comment: I will write it here as well: I do not like the photo either. If anyone has or can get or make a better one (a chestnut animal in the style used in the task, no ears etc.), I will only welcome it. I just do not have any chestnuts in this time of the year.
+
+
+----------------------------------
+review by: H. Nagataki (JPN)
+current: 3
+potential: 2
+comment: It is interesting for a question, but I wonder if the question is related with the concept of informatics.
+
+
+----------------------------------
+review by: Peter Tomcsanyi
+current: 2
+potential: 6 
+comment: I like the idea of the question (even if it is to me more a puzzle than a struc taks). But the story has some problems. Some of them are mentioned above, but the main problem for me that if you use matches for connecting the chestnuts then it is hard to imagine "dancing". On the other hand the problem of ears and legs made without a chetsnut at the end of a match is not a problem to me, let's just modify the pictures and add such element into the animals in the question, too.
+The yellow color may be not really visible on some (cheap) screens.
+
+
+----------------------------------
+review by: Ivo
+current: 3
+potential: 6
+comment: Chestnut animals only rotate in space, never change shape. This was troubeling me. So one should replace (at least conceptually) all matches with strings. The story could be, that the animals were layed out (in 2D), and then baby-beaver came and messed up the arrangement. Now the student can fix the situation ;-)
+
+
+----------------------------------
+review by: Dan Lessner (author)
+current: 
+potential: 
+comment: Well, they also rotate around the sticks :-) My idea was that they are physically different objects, like other children toys - you have a Skywalker in an X-Wing, one just standing, one shooting, one fencing - they are all Skywalkers. I would think that such concept will be understood among kids. It can probably be described in the instructions ("figures of the same animal, but in dancing position", or even "same kind of animal"). I was going for the simplest verbal explanation, since I teach high school and do not have a good guess on what and how do little kids understand.
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------

@@ -1,0 +1,138 @@
+How to use this file: 
+- Update the svn
+- Leave the headers (like current:) intact, 
+  so the file can be processed automatically.
+- Add your valued opinion
+- Commit to the svn
+
+Explanation:
+============
+
+review by: Your Name
+current: A number from 1 (completely unsuitable) to 6 (excellent) to
+rate the current state of the task.
+
+potential: A number from 1 to 6 to rate what you think can be made out
+of this task.
+
+comment: Optional comments on how to improve the task
+
+
+----------------------------------
+review by: Daumilas Ardickas
+current: 4
+potential:5 
+comment: Can be made interacitve by letting to write letters in city places (or drag them into places).
+
+
+----------------------------------
+review by: Rostyslav Shpakovych
+current: 4
+potential: 5
+comment: The information "C is  south-east of D. D is south of F." - is sufficient to identify town in position 6. It may be nice task for the youngers.
+
+Task for the Seniors- to identify town in position 5 with information:
+"C is south of A and south-east of D.
+ B is south-west of F 
+ D is south of F."
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------

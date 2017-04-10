@@ -1,0 +1,138 @@
+How to use this file: 
+- Update the svn
+- Leave the headers (like current:) intact, 
+  so the file can be processed automatically.
+- Add your valued opinion
+- Commit to the svn
+
+Explanation:
+============
+
+review by: Your Name
+current: A number from 1 (completely unsuitable) to 6 (excellent) to
+rate the current state of the task.
+
+potential: A number from 1 to 6 to rate what you think can be made out
+of this task.
+
+comment: Optional comments on how to improve the task
+
+
+----------------------------------
+review by: Rostyslav Shpakovych
+current: 5
+potential: 6
+comment: Maybe correct answer TTGTTG
+length - 6, frequency - 2
+++ reply by author: question string has been modified ++
+
+----------------------------------
+review by: Daumilas Ardickas
+current: 4
+potential:6
+comment: correct answer TTGTTG (kay value 8)
+++ reply by author: question string has been modified ++
+
+
+----------------------------------
+review by: Jiri Vanicek
+current: 4
+potential: 
+comment: correct answer is T (key value 9) so the whole settings must be rebuild (only sentences of length > 1 count?)
+++ reply by author: question string has been modified ++
+
+
+----------------------------------
+review by: Christian Datzko
+current: 3
+potential: 3 
+comment: as the commenters above make very clear: the optimal answer is very difficult to get and/or very easy to miss. Thus to time consuming thus no bebras task, I'm sorry. The idea isn't all that bad though, but it needs to be worked on significantly. 
+++reply by author: I do not see in what way, because the task is defined quite concisely. ++
+
+
+----------------------------------
+review by: Dan Lessner
+current: 3
+potential: 4 
+comment: Aside from what is above, is there some smarter way to find the answer than brute force and codon-gazing? 
+++reply by author: see extended "explanation" section. ++
+
+
+----------------------------------
+"review by: T Ishizuka (JPN)
+current: 3
+potential: 5
+comment: Difficult to find sequences. However if multiple answers is used, it becomes too easy.
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------

@@ -1,0 +1,138 @@
+How to use this file: 
+- Update the svn
+- Leave the headers (like current:) intact, 
+  so the file can be processed automatically.
+- Add your valued opinion
+- Commit to the svn
+
+Explanation:
+============
+
+review by: Your Name
+current: A number from 1 (completely unsuitable) to 6 (excellent) to
+rate the current state of the task.
+
+potential: A number from 1 to 6 to rate what you think can be made out
+of this task.
+
+comment: Optional comments on how to improve the task
+
+
+----------------------------------
+review by: Ivo
+current: 4
+potential: 4 
+comment: It is pretty clear, that only A and D cells are used, so one
+should probably replace a distractor by A1, A3, A5, D2, D4 to make it
+a little bit harder. Sidenote: in common Spreadsheet applications
+lines are numbered and colums are marked by letters. This is not an
+issue for the task, but in my opinion it should be changed.
+
+
+----------------------------------
+review by: Yoshi NAKANO (JPN)
+current: 3
+potential: 4
+comment: Because the color and the brightness are not connected directly, an additional condition is necessary.
+
+
+----------------------------------
+review by: Jiri Vanicek
+current: 
+potential: 
+comment: Explanation that correct is C is NOT an explanation why.
+The settings is not clear. Who knows whether C1 is lighter than  A2? Even after converting in BW and putting C1 on A2 is not clearly visible which cell is darker.
+
+
+----------------------------------
+review by: Dan Lessner
+current: 3
+potential: 4
+comment: The question asks about the darkest cell in *each column*, right? The explanation should explain what "darkness" is in terms of digital technology/computer graphics. The differences must be big enough so that we can be sure that anyone, even with poorly set display, can solve the task. Use of spreadsheet does not constitute an informatics task in my eyes (while use of coordinates, in this age group, is ok).
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------

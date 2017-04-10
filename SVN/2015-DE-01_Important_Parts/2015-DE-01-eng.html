@@ -1,0 +1,87 @@
+<HTML>
+<head>
+<title>2015-DE-01: Important Parts</title>
+</head>
+<body>
+<h1>2015-DE-01</h1>
+<hr />
+<h2>Important Parts</h2>
+	<p>Information in the human genome is essentially encoded by the
+	four components Adenin, Cytosin, Guanin, and Thymin.  Often, genes are
+	characterized as sequences of characters A, C, G, and T, like
+	CAGGAGGAT.
+	</p>
+	<p>Such sequences may be very long.  Researchers are looking for
+	their important parts, which must occur at least twice in a sequence.
+	The importance of a part is characterized by its <em>value</em>, which is computed as follows:<br />
+	part length + number of its occurrences in the sequence.
+	</p>
+	<p>Then, the most important part of a sequence is the important part with the highest value.  
+	For example:  The most important part of the sequence CAGGAGGAT is AGGA.  
+	Its value is 6: AGGA is 4 characters long, and it occurs 2 times in the sequence. 
+	G is less important, because its value is 5: it occurs 4 times, but is only 1 character long.
+	</p>
+	<p><strong>What is the most important part of the sequence: CATAGTAGTACA ?</strong><br />
+	Enter the solution here (as a sequence of capital letters):</p>
+<hr />
+<h2>The correct answer is:</h2>
+<p>TAGTA is the correct answer.  
+Its importance value is 7 (length: 5; frequency: 2), and there is no other important part with a value &ge; 7.<br />
+	There are several other subsequences with importance value 6, though:  
+	TAGT and AGTA (length: 4, frequency: 2) as well as A (length: 1, frequency: 5).
+</p>
+<p>The solution can be found by looking at all occurrences of each character, one by one, and see how far you can get finding more than one equal continuations.  Both of the two Cs, for instance, can twice be continued to CA, but that's it.  The five As can twice be continued to AGTA, the three Ts can twice be continued to TAGTA, and the two Gs can twice be continued to GTA.  Because none of these continuations occurs more often than twice, the longest of them (TAGTA) is most important among them.  It is also more important than any of the single characters in this example.</p>
+<hr />
+<h2>It's Informatics!</h2>
+<p>
+<!--	string patterns, string algorithms, computational biology -->
+The discovery of the genetic code has been a breakthrough in biology.
+Moreover, it lead to a fundamental change of perspective:
+Life could be considered as being determined by the information that is encoded in the genome sequence.
+From this perpective, genetics essentially is about encoding and processing information.
+Starting in the 1990s, researchers from both biology and informatics began to co-operate, and the area of bioinformatics started to grow.  
+Since then, many new ways of representing and processing biological information with computers have been developed.
+This has had severe impacts on biology, but also on pharmacy and medicine.
+The analysis of (genetic) sequences is only one aspect of bioinformatics.
+</p>
+<hr />
+<h2>Attributes</h2>
+<p>
+Category: INF<br />
+Age Group / Difficulty: TBD<br />
+Interactivity: open text<br />
+colour-blind-proof: yes
+</p>
+<hr />
+<h2>Authorship</h2>
+<p>2015-04-14 Proposal: Wolfgang Pohl (DE)<br />
+</p>
+<hr />
+<h2>Wording</h2>
+<p><strong>sequence (of characters)</strong></p>
+<p><strong>(most) important part</strong></p>
+<hr />
+
+<h2>Comments</h2>
+<p>2015-04-14 Wolfgang Pohl (DE): <br />
+This task has been derived from a problem that was set in the German CS contest
+"Bundeswettbewerb Informatik" (contest 33, round 2).
+</p>
+<p>2015-05-13 Wolfgang Pohl (DE): <br />
+The question string and, accordingly, the explanation section was modified due to review comments.
+The correctness of the explanation section has been verified by a program.
+</p>
+<hr />
+
+<h2>Files</h2>
+2015-DE-01-eng.html (this file)<br />
+2015-DE-01-eng.pdf (pretty print)<br />
+<hr />
+<h2>License</h2>
+<p>
+Copyright &copy; 2015 Bebras &ndash; International Contest on Informatics and Computer Fluency.<br />
+This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License.</a>
+</p>
+<hr />
+</body>
+</HTML>

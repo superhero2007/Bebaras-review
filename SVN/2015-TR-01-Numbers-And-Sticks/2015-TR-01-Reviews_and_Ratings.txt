@@ -1,0 +1,142 @@
+How to use this file: 
+- Update the svn
+- Leave the headers (like current:) intact, 
+  so the file can be processed automatically.
+- Add your valued opinion
+- Commit to the svn
+
+Explanation:
+============
+
+review by: Your Name
+current: A number from 1 (completely unsuitable) to 6 (excellent) to
+rate the current state of the task.
+
+potential: A number from 1 to 6 to rate what you think can be made out
+of this task.
+
+comment: Optional comments on how to improve the task
+
+
+----------------------------------
+review by: Rostyslav Shpakovych
+current: 6
+potential: 6
+comment: A good example of a greedy algorithm
+
+----------------------------------
+review by: Ivo
+current: 4
+potential: 5
+comment: In my personal opinion, this should be made about LEDs to be
+switched on (in a 7-segment display) instead of sticks. I believe it
+makes it more attractive.
+>>>>>>> .r4956
+
+
+----------------------------------
+review by: Yoshi NAKANO (JPN)
+current: 5
+potential: 3
+comment: We should show a lattice to recognize the horizontal distance easily.
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------

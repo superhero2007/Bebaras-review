@@ -1,0 +1,71 @@
+<div style="height:500px;">
+    <div class="col-md-3">
+        <select ng-model="sel" size="5" style="width:100%; height:100%;">
+            <option disabled value="0" style="background-color: rgb(200,200,200);">FolderName</option>
+            <option ng-repeat="list in tasklists" value="{{list.folderName}}" ng-selected='sel==list.folderName'>{{list.folderName}}</option>
+        </select>
+    </div>
+    <div class="col-md-9" style="height:100%; padding:0;" ng-if="sel!='0'">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <h3 style="padding:0px 10px;">{{sel}}</h3>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#/Tasks/General?id={{sel}}">Infos</a></li>
+                        <li><a href="#/Tasks/Html?id={{sel}}" style="background-color: #ddd;">Html Version</a></li>
+                        <li><a href="#/Tasks/Odt?id={{sel}}">Odt Version</a></li>
+                        <li><a href="#/Tasks/PDF?id={{sel}}">PDF Version</a></li>
+                        <li><a href="#/Tasks/Your?id={{sel}}">Your Review</a></li>
+                        <li><a href="#/Tasks/All?id={{sel}}">All Reviews</a></li>
+                        <li><a href="#/Tasks/Discussion?id={{sel}}">Discussion</a></li>
+                        <li><a href="#/Tasks">&#10006;</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div style="border:1px solid; height:74%" >
+            <div style="margin-bottom:-30px; border:1px solid; padding:10px;">
+                <span> Show Local Version: </span>
+                <toggle-switch ng-model="toggleflag" ng-style="{'background-color':((toggleflag==true)?'#5cb85c':'#f0f0f0')}" on-label="" off-label="" style="margin-bottom:-10px;"></toggle-switch>
+            </div>
+            <div ng-repeat="x in data"  ng-show="x['folderName']==sel&&toggleflag==false" >
+                <a ng-href="{{x.link}}" target="_blank" class="pull-right" style="padding-right:20px;">Open the server version of this task in a new browser tab</a><br/>
+                <div style="width:100%;">
+                    <iframe ng-src="{{x.link}}" style="width:100%; height:87%; margin-top:10px; border:1px solid black;" ng-show='(data.autoLoadTasks=="true")'></iframe>
+                    <div ng-show='(data.autoLoadTasks=="false")'>
+                        <button ng-click="loadchange()" ng-show="data.autoLoadTasks=='false'" style="margin: 20% 40%;">Load Tasks from Server</button>
+                    </div>
+                </div>
+            </div>
+            <div ng-repeat="x in data"  ng-show="x['folderName']==sel&&toggleflag==true">
+                <a ng-href="file:///{{trust(x.otherlink)}}" target="_blank" class="pull-right" style="padding-right:20px;" ng-show="!httpflag">Open your local copy of this task in a new browser tab</a>
+                <a ng-href="{{trust(x.otherlink)}}" target="_blank" class="pull-right" style="padding-right:20px;" ng-show="httpflag">Open your local copy of this task in a new browser tab</a><br/>
+                <div style="text-align:center;" ng-show="!httpflag">
+                    <p style="margin:10% 33% 2%">
+                    For security reasons, a file://url can't be loaded dire ctlyoreven linked to. Copy the link below and paste it a new tab to load the task.
+                    </p>
+                    <a ng-href="file:///{{trust(x.otherlink)}}" target="_blank" ><span>file:///{{trust(x.otherlink)}}</span></a>
+                    <br/>
+                    <br/>
+                    <input type="text" value="file:///{{trust(x.otherlink)}}" class="ab"  style="display:none;">
+                    <button onclick="copylink()">
+                    Copy this link
+                    </button>
+                </div>
+                <div style="width:100%;" ng-show="httpflag">
+                    <iframe ng-src="{{trust(x.otherlink)}}" style="width:100%; height:87%; margin-top:10px; border:1px solid black;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+var copylink= function(){
+    $('.ab').css("display","inline");
+    $('.ab').select();
+    document.execCommand ("copy");
+    $('.ab').css("display","none");
+}
+</script>

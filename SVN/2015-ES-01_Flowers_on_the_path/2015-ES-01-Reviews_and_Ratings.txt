@@ -1,0 +1,134 @@
+How to use this file: 
+- Update the svn
+- Leave the headers (like current:) intact, 
+  so the file can be processed automatically.
+- Add your valued opinion
+- Commit to the svn
+
+Explanation:
+============
+
+review by: Your Name
+current: A number from 1 (completely unsuitable) to 6 (excellent) to
+rate the current state of the task.
+
+potential: A number from 1 to 6 to rate what you think can be made out
+of this task.
+
+comment: Optional comments on how to improve the task
+
+
+----------------------------------
+review by: Mauro Torelli
+current: 5
+potential: 6
+comment: Text should be made more clear: the two beavers are enough
+for ordering (for this instance...)
+
+
+----------------------------------
+review by: Christian Datzko
+current: 4
+potential: 6
+comment: Why not change it and make it a true Gnome Sort? This way only one beaver is needed! Of course in this case the question would need to be changed (as in: how many basket exchanges take place)?
+
+
+----------------------------------
+review by: Zsuzsa Pluhár
+current: 4
+potential: 5 
+comment: 
+
+
+----------------------------------
+review by: Dan Lessner
+current: 4
+potential: 6
+comment: 
+
+
+----------------------------------
+review by: T Ishizuka (JPN)
+current: 3
+potential: 5
+comment: A sort is completed by the second beaver by chance for this task. Some students may answer it from a small number without understanding.
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------

@@ -1,0 +1,133 @@
+How to use this file: 
+- Update the svn
+- Leave the headers (like current:) intact, 
+  so the file can be processed automatically.
+- Add your valued opinion
+- Commit to the svn
+
+Explanation:
+============
+
+review by: Your Name
+current: A number from 1 (completely unsuitable) to 6 (excellent) to
+rate the current state of the task.
+
+potential: A number from 1 to 6 to rate what you think can be made out
+of this task.
+
+comment: Optional comments on how to improve the task
+
+
+----------------------------------
+review by: Motomasa OMURA (JPN)
+current: 3
+potential: 3
+comment: 
+
+
+----------------------------------
+review by: Christian Datzko
+current: 3
+potential: 5
+comment: It's a puzzle, but something similar has been presented (by a math professor as a CS problem) at this year's CS teacher conference at the ETH in Zurich, so it's not that far. I'm not sure if it is too long, maybe use a smaller graph with fewer nodes?
+
+
+----------------------------------
+review by: Zsuzsa Pluhár
+current: 3
+potential: 6
+comment: see p.c. + more in "It's inf." part
+
+
+----------------------------------
+review by: Michael Weigend (DE)
+current: 3
+potential: 4
+comment: To me this is a very nice math puzzle you want to solve when you have (more than 2 min) time.
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------

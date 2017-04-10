@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>2014-FR-01-ceremony</title>
+      <script class="module" type="text/javascript" src="../2014-FR-modules/jquery-1.7.1.min.js" id="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+      <script class="module" type="text/javascript" src="../2014-FR-modules/json2.min.js" id="https://github.com/douglascrockford/JSON-js"></script>
+      <script class="remove" type="text/javascript" src="../2014-FR-modules/platform_api.js" ></script>
+      <script class="module" type="text/javascript" src="../2014-FR-modules/raphael-min.js" id="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+      <script class="module" type="text/javascript" src="../2014-FR-modules/tracker.js" id="http://castor-informatique.fr/tasks/modules/tracker.js"></script>
+      <script class="remove" type="text/javascript" src="../2014-FR-modules/gen_task_resources.js"></script>
+      <link class="module" rel="stylesheet" type="text/css" href="../2014-FR-modules/styles.css" id="http://castor-informatique.fr/tasks/modules/styles.css" />
+      <script class="module" type="text/javascript" src="../2014-FR-modules/raphael-min.js" id="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+      <script class="module" type="text/javascript" src="../2014-FR-modules/drag_lib.js" id="http://castor-informatique.fr/tasks/modules/drag_lib.js"></script>
+      <script class="module" type="text/javascript" src="../2014-FR-modules/drag_lib.js" id="http://castor-informatique.fr/tasks/modules/drag_lib.js"></script>
+      <script class="remove" type="text/javascript">
+
+       var json = {
+          "id": "http://castor-informatique.fr/tasks/2014/2014-FR-01-ceremony/",
+          "language": "en",
+          "version": "en.01",
+          "authors": "Alexandre Talon and Mathias Hiron",
+          "translators": [
+          ],
+          "license": "CC BY-SA 3.0",
+          "taskPathPrefix": "",
+          "modulesPathPrefix": "",
+          "browserSupport": [
+          ],
+          "acceptedAnswers": [
+          ],
+          "difficulty": {"3": "hard", "4": "medium"},
+          "categories": {ALG : true},
+          "answerType": "Interactive, sort elements in a list",
+          "status": "evaluation"
+      };
+      </script>
+      <!-- put task css here -->
+      <style class="">
+         .solution_table {
+           width:250px;
+           text-align: center;
+           font-size: 95%;
+         }
+          .solution_table div {
+           background: #ddf;
+           padding: 0.3em;
+           margin: 1px 10px 1px 10px;
+           border: 1px solid gray;
+           font-weight: bold;
+           border-radius: 5px;
+          }
+      </style>
+      <script src="2014-FR-01_task.js"></script>
+    </style>
+  </head>
+  <body>
+      <div id="task">
+          <h1>Ceremony</h1>
+          <p>
+          <p>
+          The Beaver community has a very strict protocol for organizing ceremonies. In the illustration below, each text represents a possible
+          step of a ceremony. An arrow means that the step at the start of the arrow has to be performed at some point <b>before</b> the step at the end of the arrow.
+          </p>
+          <table>
+             <tr>
+                <td><img src="ceremony.png"></td>
+                <td style="text-align:center">                  
+                  <div id="anim" style="width:250px;height:330px" class="touch"></div>
+                  <div id="error"></div>
+                  <div id="success"></div>
+                  <input type="button" id="execute" value="Check" onclick="task.checkAnswer(task.getAnswer())" />
+               </td>
+             </tr>
+          </table>
+          <p>
+            <b>Drag the steps on the right to get an order that corresponds to a ceremony allowed by these rules.</b>
+          </p>			
+      </div><!-- task -->
+      <div id="task-solution">
+          <h2>Solution</h2>
+          <p>Here is one possible order:</p>
+          <table><tr><td>
+          <div>
+            <div class="solution_table">
+              <div class="item_2014_FR_01">Sing a song</div>
+              <div class="item_2014_FR_01">Drum rolls</div>
+              <div class="item_2014_FR_01">10 minutes break</div>
+              <div class="item_2014_FR_01">Minute of silence</div>
+              <div class="item_2014_FR_01">Long speech</div>
+              <div class="item_2014_FR_01">Dance performance</div>
+              <div class="item_2014_FR_01">Announce prize winner</div>
+              <div class="item_2014_FR_01">Play the clairon</div>
+              <div class="item_2014_FR_01">Fireworks</div>
+              <div class="item_2014_FR_01">Thank everyone</div>
+            </div>
+          </div>
+          </td><td>
+          <center><img src="ceremony_solution.png"></center>
+          </td></tr></table>
+            <p>
+            One way to obtain such an order is to follow the following algorithm:
+            </p>
+<pre>while some steps have not yet been performed
+    find and perform one such that every step pointing at it has already been performed
+</pre>
+            <p>
+               For example, at the beginning, "Sing a song" is the only step that has no other step pointing at it, so we can perform it.
+            </p>
+            <p>
+            Then, since both steps "10 minutes break" and "Drum rolls" only had "Sing a song" pointing at them, and since "Sing a song" has been performed, both can now be performed. We can start with "Drum rolls", for example.
+            </p>
+            <p>
+            Now we still have "10 minutes break" available. On the other hand, "Dance performance" that "Drum rolls"  was pointing to, still has "Long speech" pointing at it, which has not been performed. So we have only one choice and perform "10 minutes break".
+            </p>
+            <p>
+            We can now perform "Minute of silence", then "Long speech", and now, "Dance performance" can be performed, as can "Announce prize winner". We can perform the in this order, for example.
+            </p>
+            <p>We then have no choice for the last 3 steps, and have to perform "Play the clairon", then "Fireworks" and finally, "Thank everyone".
+            </p>
+          <p>There are several other valid answers, depending on which step you perform when several are available in the algorithm described above.</p>
+          <h2>It's informatics!</h2>
+          <p>Solving this tasks means performing a topological sort of the graph. This implies understanding the graph representation, as well as the precedence relationships expressed by the edges of the graph.</p>
+      </div>
+  </body>
+</html>

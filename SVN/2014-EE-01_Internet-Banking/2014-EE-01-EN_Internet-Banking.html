@@ -1,0 +1,51 @@
+<HTML>
+<head>
+<title>2014-EE-01: Internet Banking</title>
+</head>
+<body>
+<h1>2014-EE-01</h1>
+<hr />
+<h2>Internet Banking</h2>
+<p>Beaver Bobby is sitting in a cafe when he suddenly remembers his friend Dotty paid for his ice-cream last Sunday, and he still owes her. Luckily, the cafe has WiFi and Bobby has his laptop computer with him, so he decides to settle his debt at once, before he forgets again.</p>
+<p><strong>Which of the following should Bobby type to the address bar of his web browser to securely connect to his bank (assuming the bank's web server is called www.bank.com)?</strong></p>
+<ol style="list-style-type:upper-alpha">
+<li>http://www.bank.com</li>
+<li>https://www.bank.com</li>
+<li>www.bank.com</li>
+<li>bank.com</li>
+</ol>
+<hr />
+<h2>The correct answer is: B</h2>
+<p>The correct answer is B (https://www.bank.com), because only in this case the web browser starts an encrypted and authenticated session at once.</p>
+<p>In case A (http://www.bank.com), the web browser starts an unencrypted and unauthenticated connection first. The bank's server would most likely redirect the browser to the secure connection, but in a public wireless network it is rather easy for an attacker to intercept the initial connection and redirect it anywhere (for example, to a phishing site) before it ever gets to the real bank's server.</p>
+<p>The answer C is really the same as A, as most web browsers default to plain HTTP, not the encrypted and authenticated HTTPS, if the protocol is not given explicitly. The name in answer D may or may not be an alias for the same server named in the other answers, but in any case, the browser most likely defaults to plain HTTP again.</p>
+<hr />
+<h2>It's Informatics!</h2>
+<p>It is important to know (and follow!) secure procedures to avoid becoming a victim of identity theft.</p>
+<hr />
+<h2>Attributes</h2>
+<p>
+Category: SOC<br />
+Age Group / Difficulty: III-easy, IV-easy (the younger ones probably don't use internet banking yet)<br />
+Colour-blind-proof: yes
+</p>
+<hr />
+<h2>Authorship</h2>
+<p>2014-05-10 Proposal: Ahto Truu, ahto.truu@ut.ee</p>
+<hr />
+<h2>Wording</h2>
+<p>N/A</p>
+<hr />
+<h2>Comments</h2>
+<p>2014-MM-DD NN (country):<br />
+comment</p>
+<hr />
+<h2>Files</h2>
+2014-EE-01-EN_Internet-Banking.html (this file)
+<hr />
+<h2>License</h2>
+<p>Copyright &copy; Bebras &ndash; International Contest on Informatics and Computer Fluency.<br />
+This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License.</a></p>
+<hr />
+</body>
+</HTML>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg3015" sodipodi:docname="Compass-Rose-BW.svg" inkscape:version="0.48.1 r9760" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:ns1="http://sozi.baierouge.fr"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="28.7 96.3 602.9 543.7"
+	 enable-background="new 28.7 96.3 602.9 543.7" xml:space="preserve">
+<title  id="title3013">Compass Rose</title>
+<sodipodi:namedview  fit-margin-bottom="2" fit-margin-right="2" inkscape:document-units="px" bordercolor="#666666" pagecolor="#ffffff" inkscape:cy="136.06639" inkscape:zoom="2.8" id="base" borderopacity="1.0" showgrid="false" inkscape:cx="133.92857" inkscape:pageopacity="0.0" inkscape:window-width="1000" inkscape:pageshadow="2" inkscape:window-height="1024" inkscape:window-maximized="0" inkscape:window-y="26" inkscape:current-layer="layer1" inkscape:window-x="918" fit-margin-top="2" fit-margin-left="2">
+	</sodipodi:namedview>
+<g>
+	<g id="layer1" transform="translate(2.5,2.5)" inkscape:groupmode="layer" inkscape:label="Layer 1">
+		<g id="ring">
+			
+				<path id="inner-line" sodipodi:cx="156" sodipodi:type="arc" sodipodi:cy="156" sodipodi:ry="72" sodipodi:rx="72" fill="none" stroke="#000000" stroke-width="0.25" d="
+				M432.1,369.8c0,57-46.2,103.1-103.1,103.1s-103.1-46.2-103.1-103.1S272,266.7,328.9,266.7S432.1,312.8,432.1,369.8z"/>
+			
+				<path id="outer-line" sodipodi:cx="156" sodipodi:type="arc" sodipodi:cy="156" sodipodi:ry="96" sodipodi:rx="96" fill="none" stroke="#000000" stroke-width="0.25" d="
+				M466.4,369.8c0,75.9-61.6,137.5-137.5,137.5s-137.5-61.6-137.5-137.5S253,232.3,328.9,232.3S466.4,293.8,466.4,369.8z"/>
+			<path id="ring-fill" inkscape:connector-curvature="0" stroke="#000000" stroke-width="0.25" d="M328.9,232.3
+				c-75.9,0-137.5,61.6-137.5,137.5S253,507.3,328.9,507.3s137.5-61.6,137.5-137.5S404.9,232.3,328.9,232.3z M328.9,266.7
+				c57,0,103.1,46.2,103.1,103.1s-46.2,103.1-103.1,103.1s-103.1-46.2-103.1-103.1S272,266.7,328.9,266.7z"/>
+		</g>
+		<g id="major-rose-edge">
+			<path id="highlight-north" inkscape:connector-curvature="0" fill="none" stroke="#FFFFFF" d="M328.9,369.8l34.4-34.4
+				l-34.4-189.1"/>
+			<path id="highlight-east" inkscape:connector-curvature="0" fill="none" stroke="#FFFFFF" d="M328.9,369.8l34.4,34.4l189.1-34.4"
+				/>
+			<path id="highlight-south" inkscape:connector-curvature="0" fill="none" stroke="#FFFFFF" d="M328.9,369.8l-34.4,34.4
+				l34.4,189.1"/>
+			<path id="highlight-west" inkscape:connector-curvature="0" fill="none" stroke="#FFFFFF" d="M328.9,369.8l-34.4-34.4
+				l-189.1,34.4"/>
+		</g>
+		<g id="minor-rose">
+			<g id="light-minor">
+				<path id="light-northeast" inkscape:connector-curvature="0" fill="#FFFFFF" stroke="#000000" stroke-width="0.25" d="
+					M328.9,369.8l68.8-68.8L328.9,334"/>
+				<path id="light-southeast" inkscape:connector-curvature="0" fill="#FFFFFF" stroke="#000000" stroke-width="0.25" d="
+					M328.9,369.8l68.8,68.8l-32.9-68.8"/>
+				<path id="light-southwest" inkscape:connector-curvature="0" fill="#FFFFFF" stroke="#000000" stroke-width="0.25" d="
+					M328.9,369.8l-68.8,68.8l68.8-32.9"/>
+				<path id="light-northwest" inkscape:connector-curvature="0" fill="#FFFFFF" stroke="#000000" stroke-width="0.25" d="
+					M328.9,369.8L260.2,301l32.9,68.8"/>
+			</g>
+			<g id="dark-minor">
+				<path id="dark-northeast" inkscape:connector-curvature="0" d="M328.9,369.8l68.8-68.8l-32.9,68.8"/>
+				<path id="dark-southeast" inkscape:connector-curvature="0" d="M328.9,369.8l68.8,68.8l-68.8-32.9"/>
+				<path id="dark-southwest" inkscape:connector-curvature="0" d="M328.9,369.8l-68.8,68.8l32.9-68.8"/>
+				<path id="dark-northwest" inkscape:connector-curvature="0" d="M328.9,369.8L260.2,301l68.8,32.9"/>
+			</g>
+		</g>
+		<g id="major-rose">
+			<g id="light-major">
+				<path id="light-north" inkscape:connector-curvature="0" fill="#FFFFFF" stroke="#000000" stroke-width="0.25" d="M328.9,369.8
+					l-34.4-34.4l34.4-189.1"/>
+				<path id="light-east" inkscape:connector-curvature="0" fill="#FFFFFF" stroke="#000000" stroke-width="0.25" d="M328.9,369.8
+					l34.4-34.4l189.1,34.4"/>
+				<path id="light-south" inkscape:connector-curvature="0" fill="#FFFFFF" stroke="#000000" stroke-width="0.25" d="M328.9,369.8
+					l34.4,34.4l-34.4,189.1"/>
+				<path id="light-west" inkscape:connector-curvature="0" fill="#FFFFFF" stroke="#000000" stroke-width="0.25" d="M328.9,369.8
+					l-34.4,34.4l-189.1-34.4"/>
+			</g>
+			<g id="dark-major">
+				<path id="dark-north" inkscape:connector-curvature="0" d="M328.9,369.8l34.4-34.4l-34.4-189.1"/>
+				<path id="dark-east" inkscape:connector-curvature="0" d="M328.9,369.8l34.4,34.4l189.1-34.4"/>
+				<path id="dark-south" inkscape:connector-curvature="0" d="M328.9,369.8l-34.4,34.4l34.4,189.1"/>
+				<path id="dark-west" inkscape:connector-curvature="0" d="M328.9,369.8l-34.4-34.4l-189.1,34.4"/>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 286.7687 128)" font-family="'OpenSans-Bold'" font-size="30">North</text>
+	<text transform="matrix(1 0 0 1 287.6549 631.1735)" font-family="'OpenSans-Bold'" font-size="30">South</text>
+	<text transform="matrix(1 0 0 1 568.6656 380.7526)" font-family="'OpenSans-Bold'" font-size="30">East</text>
+	<text transform="matrix(1 0 0 1 28.6657 380.7527)" font-family="'OpenSans-Bold'" font-size="30">West</text>
+	<text transform="matrix(1 0 0 1 443.1653 263)" font-family="'OpenSans-Bold'" font-size="30">Northeast</text>
+	<text transform="matrix(1 0 0 1 426.1653 518)" font-family="'OpenSans-Bold'" font-size="30">Southeast</text>
+	<text transform="matrix(1 0 0 1 41.1653 263)" font-family="'OpenSans-Bold'" font-size="30">Northwest</text>
+	<text transform="matrix(1 0 0 1 41.1656 498)" font-family="'OpenSans-Bold'" font-size="30">Southwest</text>
+</g>
+</svg>

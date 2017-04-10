@@ -1,0 +1,138 @@
+How to use this file: 
+- Update the svn
+- Leave the headers (like current:) intact, 
+  so the file can be processed automatically.
+- Add your valued opinion
+- Commit to the svn
+
+Explanation:
+============
+
+review by: Your Name
+current: A number from 1 (completely unsuitable) to 6 (excellent) to
+rate the current state of the task.
+
+potential: A number from 1 to 6 to rate what you think can be made out
+of this task.
+
+comment: Optional comments on how to improve the task
+
+
+----------------------------------
+review by: Rostyslav Shpakovych
+current: 6
+potential: 
+comment: 
+
+
+----------------------------------
+review by: Troy Vasiga
+current: 5 
+potential: 6 
+comment: Perhaps make the grid a bit smaller in size, since there
+are a substantial amount of paths to examine.
+
+
+----------------------------------
+review by: Christian Datzko
+current: 2
+potential: 4
+comment: I probably didn't get the task right, but my answer would be 12. But if I didn't understand the task within 5 minutes, would a student?
+
+
+----------------------------------
+review by: Jiri Vanicek
+current: 
+potential: 
+comment: I feel non-important mistakes in the explanation table: there should be 19 instead of 17 in 2-nd row and 13 instead of 15 in 7-th row.
+
+
+review by: Koh (TW)
+current: 4
+potential: 5
+comment: A good task that applies the concept of shortest path finding. However, the graph is too complicated to check the all possible paths.
+
+----------------------------------
+review by: T. Nishida, Y. Idosaka (JPN)
+current: 3
+potential: 5
+comment: 
+
+----------------------------------
+review by: Dan Lessner
+current: 4
+potential: 5
+comment: I first thought the segments can be longer than one (only the answer choices suggest otherwise).
+
+
+----------------------------------
+review by: Koh (TW)
+current: 4
+potential: 5
+comment: A good task that applies the concept of shortest path finding. However, the graph is too complicated to check the all possible paths.
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------

@@ -1,0 +1,76 @@
+<fieldset style="border-width: 2px; border-style: solid; border-color: threedface; padding:10px;">
+    <legend style="width:initial; border:0; margin:0;">Filters</legend>
+    <label>Review author: </label>
+    <select ng-model="councode">
+        <option value="France" selected>France</option>
+        <option value="Croatia">Croatia</option>
+    </select>
+    <label>First Name: </label>
+    <input type="text" ng-model="fname">
+    <label>Last Name: </label>
+    <input type="text" ng-model="lname">
+    <label>Login: </label>
+    <input type="text" ng-model="log">
+</fieldset>
+<br/>
+<table class="table table-bordered pagin-table">
+    <thead>
+        <tr>
+            <th ng-click="myOrderBy=((myOrderBy=='firstName')?'-firstName':'firstName')">First Name
+            <i class="fa fa-fw fa-sort" ng-if="myOrderBy!='firstName'&&myOrderBy!='-firstName'"></i>
+            <i class="fa fa-fw fa-sort-asc" ng-if="myOrderBy=='firstName'"></i>
+            <i class="fa fa-fw fa-sort-desc" ng-if="myOrderBy=='-firstName'"></i></th>
+            <th ng-click="myOrderBy=((myOrderBy=='lastName')?'-lastName':'lastName')">Last Name
+            <i class="fa fa-fw fa-sort" ng-if="myOrderBy!='lastName'&&myOrderBy!='-lastName'"></i>
+            <i class="fa fa-fw fa-sort-asc" ng-if="myOrderBy=='lastName'"></i>
+            <i class="fa fa-fw fa-sort-desc" ng-if="myOrderBy=='-lastName'"></i></th>
+            <th ng-click="myOrderBy=((myOrderBy=='svnLogin')?'-svnLogin':'svnLogin')">SVN Login
+            <i class="fa fa-fw fa-sort" ng-if="myOrderBy!='svnLogin'&&myOrderBy!='-svnLogin'"></i>
+            <i class="fa fa-fw fa-sort-asc" ng-if="myOrderBy=='svnLogin'"></i>
+            <i class="fa fa-fw fa-sort-desc" ng-if="myOrderBy=='-svnLogin'"></i></th>
+            <th>Email</th>
+            <th>Country</th>
+            <th ng-click="myOrderBy=((myOrderBy=='registrationDate')?'-registrationDate':'registrationDate')">Create Date
+            <i class="fa fa-fw fa-sort" ng-if="myOrderBy!='registrationDate'&&myOrderBy!='-registrationDate'"></i>
+            <i class="fa fa-fw fa-sort-asc" ng-if="myOrderBy=='registrationDate'"></i>
+            <i class="fa fa-fw fa-sort-desc" ng-if="myOrderBy=='-registrationDate'"></i></th>
+            <th ng-click="myOrderBy=((myOrderBy=='LastLoginDate')?'-LastLoginDate':'LastLoginDate')">Modified Date
+            <i class="fa fa-fw fa-sort" ng-if="myOrderBy!='LastLoginDate'&&myOrderBy!='-LastLoginDate'"></i>
+            <i class="fa fa-fw fa-sort-asc" ng-if="myOrderBy=='LastLoginDate'"></i>
+            <i class="fa fa-fw fa-sort-desc" ng-if="myOrderBy=='-LastLoginDate'"></i></th>
+            <th># of Reviews</th>
+            <th>Role</th>
+            <th>Group</th>
+            <th>Role in Group</th>
+            <th ng-click="myOrderBy=((myOrderBy=='autoLoadTasks')?'-autoLoadTasks':'autoLoadTasks')">Auto Load Tasks
+            <i class="fa fa-fw fa-sort" ng-if="myOrderBy!='autoLoadTasks'&&myOrderBy!='-autoLoadTasks'"></i>
+            <i class="fa fa-fw fa-sort-asc" ng-if="myOrderBy=='autoLoadTasks'"></i>
+            <i class="fa fa-fw fa-sort-desc" ng-if="myOrderBy=='-autoLoadTasks'"></i></th>
+            <th> Tasks </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="x in data | filter : {countryCode:councode, firstName:fname, lastName:lname, svnLogin:log} | orderBy : myOrderBy">
+            <td> {{x.firstName}} </td>
+            <td> {{x.lastName}} </td>
+            <td> {{x.svnLogin}} </td>
+            <td> {{x.email}} </td>
+            <td> {{x.countryCode}} </td>
+            <td> {{x.registrationDate}} </td>
+            <td> {{x.LastLoginDate}} </td>
+            <td> {{x.Reviews}} </td>
+            <td> <input type="text" ng-model="x.role" ng-change="ch(x.ID,'role',x.role)" ng-readonly="((x['role']=='Unconfirmed'||x['role']=='rejected')?true:false)" style="width:50px; border:0;"> </td>
+            <td> <input type="text" ng-model="x.Group" ng-change="ch(x.ID,'Group',x.Group)" ng-readonly="((x['role']=='Unconfirmed'||x['role']=='rejected')?true:false)" style="width:50px; border:0;"> </td>
+            <td> <input type="text" ng-model="x.groupRole" ng-change="ch(x.ID,'groupRole',x.groupRole)" ng-readonly="((x['role']=='Unconfirmed'||x['role']=='rejected')?true:false)" style="width:50px; border:0;"> </td>
+            <td> {{x.autoLoadTasks}} </td>
+            <td> 
+            <div class="dropdown">
+                <button class="dropbtn" style="z-index: 0;">Tasks{{x.ID}}</button>
+                <div class="dropdown-content" style="z-index: 1;">
+                    <p ng-repeat="item in list[x.ID]"  ng-click="listts(item.ID)">{{item.folderName}}</p>
+                </div>
+            </div>
+            </td>
+        </tr>
+    </tbody>
+</table>

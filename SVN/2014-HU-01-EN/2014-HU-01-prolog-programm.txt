@@ -1,0 +1,35 @@
+/* Some first steps in Prolog
+
+    To execute this file with gprolog:
+
+    gprolog --init-goal "['2014-HU-01-prolog-programm.txt']" --query-goal 'day(X)'
+
+
+
+    will produce
+  
+| ?- day(X).
+
+X = sat ? 
+
+hit ';' to show that there are no more solutions, then hit Ctrl-C, then 'e' to quit.
+
+*/
+
+after(mon,tue).
+after(tue,wed).
+after(wed,thu).
+after(thu,fri).
+after(fri,sat).
+after(sat,sun).
+after(sun,mon).
+truth(mon).
+truth(wed).
+truth(fri).
+lies(tue).
+lies(thu).
+lies(sat).
+lies(sun).
+
+day(X) :- truth(X), truth(Y), after(X,Y) ; lies(X), lies(Y), after(X,Y).
+

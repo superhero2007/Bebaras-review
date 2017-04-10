@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg3002" xmlns:ns1="http://sozi.baierouge.fr" xmlns:svg="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" sodipodi:docname="RoseSimple.svg" inkscape:version="0.48.1 r9760"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1592px" height="1144px"
+	 viewBox="-338.555 19.775 1592 1144" enable-background="new -338.555 19.775 1592 1144" xml:space="preserve">
+<title  id="title2987">Simple Compass Rose</title>
+<sodipodi:namedview  id="base" bordercolor="#666666" borderopacity="1.0" inkscape:zoom="1.979899" pagecolor="#ffffff" inkscape:cy="159.21218" inkscape:cx="174.22151" inkscape:document-units="px" inkscape:pageopacity="0.0" inkscape:current-layer="layer1" inkscape:window-x="931" inkscape:pageshadow="2" inkscape:window-width="832" inkscape:window-y="46" inkscape:window-height="771" inkscape:window-maximized="0" fit-margin-right="0" fit-margin-bottom="0" fit-margin-top="0" fit-margin-left="0" showgrid="false">
+	</sodipodi:namedview>
+<g id="layer1" inkscape:label="Layer 1" inkscape:groupmode="layer">
+	<g id="g3803">
+		<path id="major_rose" inkscape:connector-curvature="0" d="M420.945,174.33l64.761,356.185l356.184,64.761l-356.184,64.761
+			l-64.761,356.185l-64.761-356.185L0,595.275l356.184-64.761L420.945,174.33z"/>
+		<path id="minor_rose" sodipodi:nodetypes="ccccccccccc" inkscape:connector-curvature="0" d="M550.466,465.754l-62.062,129.521
+			l62.062,129.521l-129.521-62.062l-129.521,62.062l62.062-129.521l-62.062,129.521l62.062-129.521l-62.062-129.521l129.521,62.062
+			L550.466,465.754z"/>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 338.4153 150.6047)" font-family="'MyriadPro-Regular'" font-size="140">UP</text>
+<text transform="matrix(1 0 0 1 220.8167 1128.6042)" font-family="'MyriadPro-Regular'" font-size="140">DOWN</text>
+<text transform="matrix(1 0 0 1 854.9055 629.657)" font-family="'MyriadPro-Regular'" font-size="140">RIGHT</text>
+<text transform="matrix(1 0 0 1 -309.7712 629.657)" font-family="'MyriadPro-Regular'" font-size="140">LEFT</text>
+</svg>

@@ -1,0 +1,138 @@
+How to use this file: 
+- Update the svn
+- Leave the headers (like current:) intact, 
+  so the file can be processed automatically.
+- Add your valued opinion
+- Commit to the svn
+
+Explanation:
+============
+
+review by: Your Name
+current: A number from 1 (completely unsuitable) to 6 (excellent) to
+rate the current state of the task.
+
+potential: A number from 1 to 6 to rate what you think can be made out
+of this task.
+
+comment: Optional comments on how to improve the task
+
+
+----------------------------------
+review by: Jiri Vanicek	
+current: 4
+potential: 
+comment: The task needs to describe chessboard more precise (there are not black cells, no squares on the board).
+Graphics is horrible.
+Wrong set of answers. I have fould solution with only 3 steps:
+1. A2(+skips-c4-c6-e4-g2-i2-i4) 2. j5  3. K6
+
+
+
+----------------------------------
+review by: Christian Datzko
+current: 3
+potential: 3
+comment: 
+
+
+----------------------------------
+review by: H. Manabe (JPN)
+current: 2
+potential: 5
+comment: Interesting task. However, it is difficult to understand the task. 
+>>>>>>> .r5113
+
+
+----------------------------------
+review by: Dan Lessner
+current: 2
+potential: 5
+comment: The wording should be improved (clarity). The explanation could show the picture with numbers of steps filled in (that also suggests the systematc way to find a solution).
+
+
+----------------------------------
+review by: Dieter Chu (TW)
+current: 2
+potential: 4
+comment: Are those suares with black 'X' named "black squares" in the task? If yes, how about just painting the squares black. The illustration can be more clear if adding arrows to indicate the moves.  In the figure, is Beaver Joseph standing upper "right" corner and want to get to the bottom "left" corner? 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------

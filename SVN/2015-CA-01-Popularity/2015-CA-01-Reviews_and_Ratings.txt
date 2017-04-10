@@ -1,0 +1,133 @@
+How to use this file: 
+- Update the svn
+- Leave the headers (like current:) intact, 
+  so the file can be processed automatically.
+- Add your valued opinion
+- Commit to the svn
+
+Explanation:
+============
+
+review by: Your Name
+current: A number from 1 (completely unsuitable) to 6 (excellent) to
+rate the current state of the task.
+
+potential: A number from 1 to 6 to rate what you think can be made out
+of this task.
+
+comment: Optional comments on how to improve the task
+
+
+----------------------------------
+review by: Rostyslav Shpakovych
+current: 4
+potential: 
+comment: 
+
+
+----------------------------------
+review by: Willem van der Vegt NL
+current: 5
+potential: 6 
+comment: A lot of work needed to solve. Adding an image or some interactivity changes the difficulty level
+
+
+----------------------------------
+review by: Mauro Torelli
+current: 5
+potential: 6 
+comment: Long, but interesting.
+
+
+----------------------------------
+review by: Zsuzsa Pluhár
+current: 5
+potential:6 
+comment: With a picture could be easier. I like it because you can see: not the one is the most popular who has the most followers (Bob)...
+
+
+----------------------------------
+review by: Yao-Ming Chang (TW)
+current: 4
+potential: 4 
+comment: A good task to construct a network (directed graph) and determine the important node in the network.
+
+
+----------------------------------
+review by: Dan Lessner
+current: 4
+potential: 5
+comment: I would like to see the graph in the explanation. I would not put it into the instructions though. I want those who have the idea of representing the situation with a graph to have an advantage. 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------

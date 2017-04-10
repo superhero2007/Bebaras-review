@@ -1,0 +1,132 @@
+How to use this file: 
+- Update the svn
+- Leave the headers (like current:) intact, 
+  so the file can be processed automatically.
+- Add your valued opinion
+- Commit to the svn
+
+Explanation:
+============
+
+review by: Your Name
+current: A number from 1 (completely unsuitable) to 6 (excellent) to
+rate the current state of the task.
+
+potential: A number from 1 to 6 to rate what you think can be made out
+of this task.
+
+comment: Optional comments on how to improve the task
+
+
+----------------------------------
+review by: Rostyslav Shpakovych
+current: 5
+potential: 6
+comment: not interactive task is very difficult
+Interactive is very nice
+Pictures in tasks -b and -c are wrong (from the task -a)
+
+----------------------------------
+review by: Christian Datzko
+current: 2
+potential: 4
+comment: There are actually two rules ;-). takes too much time (methinks). How about an equal distribution of odd number of pebbles?
+
+
+----------------------------------
+review by: J.P. Pretti
+current: 5
+potential: 6 
+comment: we always like at least one very hard problem and this could be it
+
+
+----------------------------------
+review by: Zsuzsa Pluhar
+current: 5
+potential: 5 
+comment: mangala bugs :)
+
+
+----------------------------------
+$1
+----------------------------------$2
+
+
+----------------------------------
+review by: Dieter Chu (TW)
+current: 1
+potential: 4
+comment: The idea is good but the task is too hard, can not be solved in 3 minutes. Using only 3 or 4 numbered boxes will be better. As for the interactive version, it??s a good task for interactive task. For fill-in-the-blank question, using 4 numbered boxes would be enough.
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------

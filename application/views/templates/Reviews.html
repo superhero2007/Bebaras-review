@@ -1,0 +1,64 @@
+<div style="height:500px">
+<div class="col-md-3">
+    <fieldset style="border-width: 2px; border-style: solid; border-color: threedface; padding:10px;">
+        <legend style="width:initial; border:0; margin:0;">Filters</legend>
+        <label class="pull-left" style="clear:left">Review author: </label>
+        <select class="pull-right" style="clear:right" ng-model="au">
+            <option value="0">All</option>
+            <option ng-repeat="x in authorlist" value="{{x}}">{{x}}</option>
+        </select>
+        <br/>
+        <label class="pull-left" style="clear:left">Task year: </label>
+        <select class="pull-right" style="clear:right" ng-model="ye">
+            <option value="0">All</option>
+            <option value="{{x}}" ng-repeat="x in yearlist">{{x}}</option>
+        </select>
+        <br/>
+        <label class="pull-left" style="clear:left">Task country: </label>
+        <select class="pull-right" style="clear:right" ng-model="co">
+            <option value="0">All</option>
+            <option value="{{x}}" ng-repeat="x in countrylist">{{x}}</option>
+        </select>
+        <br/>
+        <label class="pull-left" style="clear:left">Group: </label>
+        <select class="pull-right" style="clear:right" ng-model="gr">
+            <option value="0">All</option>
+            <option value="{{x}}" ng-repeat="x in grouplist">{{x}}</option>
+        </select>
+    </fieldset>
+    Sort by: 
+    <select ng-model="myOrderBy">
+        <option value="author">Author</option>
+        <option value="taskID">Task ID</option>
+        <option value="lastChangeReviewDate">Date</option>
+        <option value="-currentRating">As of Now</option>
+        <option value="-potentialRating">Potential</option>
+    </select>
+</div>
+<div class="col-md-9" style="border:1px solid; padding:0px; height: 100%; overflow-y: scroll;">
+    <div ng-repeat="x in data | orderBy : myOrderBy" ng-show="(au=='0'||x.author==au)&&(ye=='0'||x.year==ye)&&(co=='0'||x.countryCode==co)&&(gr=='0'||x.Group==gr)" style="clear:both; border-radius: 5px; border:1px solid; margin:10px; padding:10px; height:30%;">
+        <div class="top">
+            <label style="width:90px">Review by:</label>
+            <label style="width:80px"> {{x.author}}</label>
+            <a href="#/Tasks/General?id={{x.taskID}}">{{x.folderName}} </a>
+            {{x.Group}}
+        </div>
+        <div class="bottom row" style="height:80%;">
+            <div class="col-md-3">
+                <label style="width:90px">Review data:</label>
+                <label style="width:80px">{{x.initialReviewDate}} </label><br/>
+                <label style="width:90px">Last change:</label>
+                <label style="width:80px">{{x.lastChangeReviewDate}}</label> <br/>
+                <label style="width:80px">As of now:</label>
+                <div star-rating rating-value="x.currentRating" style="float:right; line-height: 1.2;"></div>
+                <br/>
+                <label style="width:80px">Potential:</label>
+                <div star-rating rating-value="x.potentialRating" style="float:right; line-height: 1.2;"></div>
+            </div>
+            <div class="col-md-9">
+                <textarea readonly style="width:100%; height:100%; border:0;  outline:0;">{{x.comment}}</textarea>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

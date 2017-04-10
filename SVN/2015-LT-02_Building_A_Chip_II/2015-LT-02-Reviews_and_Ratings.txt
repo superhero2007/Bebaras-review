@@ -1,0 +1,143 @@
+How to use this file: 
+- Update the svn
+- Leave the headers (like current:) intact, 
+  so the file can be processed automatically.
+- Add your valued opinion
+- Commit to the svn
+
+Explanation:
+============
+
+review by: Your Name
+current: A number from 1 (completely unsuitable) to 6 (excellent) to
+rate the current state of the task.
+
+potential: A number from 1 to 6 to rate what you think can be made out
+of this task.
+
+comment: Optional comments on how to improve the task
+
+
+----------------------------------
+
+
+review by: Christian Datzko
+current: 2
+potential: 4
+comment: see -LT-01
+
+
+----------------------------------
+$1
+----------------------------------$2
+
+
+----------------------------------
+
+review by: Dan Lessner
+current: 4
+potential: 5
+comment: The 3 in the explanation at (3,3) should be 2? Also the algorith deserves a better explanation why it works (how come we are allowed to sum up paths which are not obviously of the same legth?) The "visited" should be "visited in a previous wave", otherwise we might produce incorrect results, right? I find tha task very hard (not in a bad way though).
+
+
+----------------------------------
+
+
+
+review by: Koh (TW)
+current: 4
+potential: 5
+comment: A good task that applies the concept of shortest path finding. However, the graph is too complicated to find the all possible paths.
+
+
+----------------------------------
+
+
+review by: Troy Vasiga 
+current: 4 
+potential: 5 
+comment: I am not sure the diagram is correct, as mentioned by Dan above.  I
+also think the graph is a bit too complicated, though better than the version
+1 version.
+
+
+----------------------------------
+
+
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------

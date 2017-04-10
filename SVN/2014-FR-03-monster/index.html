@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+   <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8">
+      <title>2014-FR-03-monster</title>
+      <script class="module" type="text/javascript" src="../2014-FR-modules/jquery-1.7.1.min.js" id="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+      <script class="module" type="text/javascript" src="../2014-FR-modules/json2.min.js" id="https://github.com/douglascrockford/JSON-js"></script>
+      <script class="remove" type="text/javascript" src="../2014-FR-modules/platform_api.js"></script>
+      <script class="module" type="text/javascript" src="../2014-FR-modules/raphael-min.js" id="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+      <script class="module" type="text/javascript" src="../2014-FR-modules/tracker.js" id="http://castor-informatique.fr/tasks/modules/tracker.js"></script>
+      <script class="remove" type="text/javascript" src="../2014-FR-modules/gen_task_resources.js"></script>
+      <link class="module" rel="stylesheet" type="text/css" href="../2014-FR-modules/styles.css" id="http://castor-informatique.fr/tasks/modules/styles.css">
+      <script class="module" type="text/javascript" src="../2014-FR-modules/raphael-min.js" id="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+      <script class="remove" type="text/javascript">
+
+       var json = {
+          "id": "http://castor-informatique.fr/tasks/2014/2014-FR-03-monster/",
+          "language": "en",
+          "version": "en.01",
+          "authors": "Mathias Hiron, Eljakim Schrijvers",
+          "license": "CC BY-SA 3.0",
+          "translators": [
+          ],
+          "taskPathPrefix": "",
+          "modulesPathPrefix": "",
+          "browserSupport": [
+          ],
+          "acceptedAnswers": [
+          ],
+          "difficulty": {"1": "medium", "2": "medium", "3": "easy", "4": "easy"},
+          "categories": {ALG : true},
+          "answerType": "Interactive, click on a grid",
+          "status": "evaluation"
+      };
+      </script>
+      <!-- put task css here -->
+      <style class="">
+      </style>
+      <script src="task.js"></script>
+    
+  </head>
+  <body>
+      <div id="task">
+          <h1>Catch the monster</h1>
+         <table>
+            <tr>
+               <td style="width:100%;vertical-align: top">
+                   <p>
+Beaver lives in a castle with a monster in the dungeon. You see an interactive map of the dungeon below. Gray cells indicate walls that the monster cannot go through. The yellow cells show where the monster could be hiding.
+<p>
+You want to catch the monster. You do this by placing red blocks that block parts of the dungeon from the monster.<p>
+
+<b>Try it!</b> When you click on a cell you will place a red block in that cell, and you will see that there will be
+fewer yellow squares where the monster could be hiding.
+<p>
+You have caught the monster when there is only one possible cell that it can be in.
+<p>
+Try to catch the monster while using the minimum number of red blocks.
+                   </p>
+<center>
+                     <b><div id="status"></div></b>
+                     <br>
+                     <div id="success"></div>
+                     <br>
+                     <b><div id="best"></div></b>
+                     <br>
+                     <button onclick="task.restart()">Restart</button>
+                   </center>
+               </td>
+               <td>
+                   <div id="anim" style="width:445px;height:430px"></div>
+               </td>
+            </tr>
+         </table>
+          
+      </div>
+<!-- task -->
+      <div id="task-solution">
+          <h2>Solution</h2>
+            <p>
+               To solve this task and get a good score, it was necessary to find a good strategy, or algorithm.
+            </p>
+            <p>
+               The best strategy here was to perform a binary search: at each step, divide the remaining monster space by two, by placing a block right in the middle.
+            </p>
+            <p>
+               There were 127 cells in the initial monster space, that forms a path. By blocking the 64th cell of that path, we end up with two paths of length 63, one of which
+               contains the monster. We can again divide the remaining space by two and get two blocks of 31 cells, then 15, 7, 3, and finally 1. This gives the minimum number of blocks: 6.
+            </p>
+          <h2>It's informatics!</h2>
+            <p>
+               The binary search algorithm is one of the most well known and useful algorithms. This algorithm used to be applied by many people when searching for a word in a dictionary or a name in a phone-book, when dictionary and phone-books were made of paper and were not just apps.
+            </p>
+            <p>
+               This task gave students the opportunity to rediscover this algorithm by themselves, and to get the intuition of why it works.
+            </p>
+      </div>
+  </body>
+</html>

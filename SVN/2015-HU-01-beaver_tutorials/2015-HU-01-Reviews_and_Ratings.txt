@@ -1,0 +1,125 @@
+How to use this file: 
+- Update the svn
+- Leave the headers (like current:) intact, 
+  so the file can be processed automatically.
+- Add your valued opinion
+- Commit to the svn
+
+Explanation:
+============
+
+review by: Your Name
+current: A number from 1 (completely unsuitable) to 6 (excellent) to
+rate the current state of the task.
+
+potential: A number from 1 to 6 to rate what you think can be made out
+of this task.
+
+comment: Optional comments on how to improve the task
+
+
+----------------------------------
+review by: Rostyslav Shpakovych
+current: 5
+potential: 
+comment: 
+
+----------------------------------
+review by: Egle Jasute
+current: 5
+potential: 6
+comment: nice and actual problem for younger students
+
+
+----------------------------------
+review by: Christian Datzko. 
+current: 1
+potential: 1
+comment: Not a bad idea, but it depends on the local laws and customs. Also: c) would not be appropriate in many regions, since it can still be copyrighted material that you are NOT allowed to republish (but maybe to use). Really depends on the license and then you have to talk to your lawyers.
+
+
+----------------------------------
+review by: T. Nishida, Y. Idosaka (JPN)
+current: 3
+potential: 4
+comment: 
+
+
+----------------------------------
+review by: Dan Lessner
+current: 2
+potential: 3
+comment: The situation has to be specified (what is "free"? what is the license in the book?). Are we sure linking a scanned book is not allowed? Where is it so, where not?
+
+
+----------------------------------
+review by: Janez Demsar (SI)
+current: 2
+potential: 2 
+comment: I would not use this task for our national competition since we avoid SOC category and pre-knowledge tasks. Also, the exact circumstances would need to be described more clearly -- I chose the right question just because I guessed what the task intends to achieve.
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------

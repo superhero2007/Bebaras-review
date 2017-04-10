@@ -1,0 +1,41 @@
+<div style="height:500px;">
+<div class="col-md-3">
+    <select ng-model="sel" size="5" style="width:100%; height:100%;">
+        <option disabled value="0" style="background-color: rgb(200,200,200);">FolderName</option>
+        <option ng-repeat="list in tasklists" value="{{list.folderName}}" ng-selected='sel==list.folderName'>{{list.folderName}}</option>
+    </select>
+</div>
+
+<div class="col-md-9" style="height:100%; padding:0;" ng-if="sel!='0'">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <h3 style="padding:0px 10px;">{{tasklists[sel-1].folderName}}</h3>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#/Tasks/General?id={{sel}}">Infos</a></li>
+                    <li><a href="#/Tasks/Html?id={{sel}}">Html Version</a></li>
+                    <li><a href="#/Tasks/Odt?id={{sel}}">Odt Version</a></li>
+                    <li><a href="#/Tasks/PDF?id={{sel}}">PDF Version</a></li>
+                    <li><a href="#/Tasks/Your?id={{sel}}" style="background-color: #ddd;">Your Review</a></li>
+                    <li><a href="#/Tasks/All?id={{sel}}">All Reviews</a></li>
+                    <li><a href="#/Tasks/Discussion?id={{sel}}">Discussion</a></li>
+                    <li><a href="#/Tasks">&#10006;</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <div ng-repeat="x in data" ng-show="x['folderName']==sel"  class="row" style="border:1px solid; padding:10px; height:74%; margin:0;" >
+            <div class="col-md-6">
+                <label class="pull-left" style="width:200px;"> Your rating as of now: </label>
+                <div star-rating rating-value="x['currentRating']"></div>
+                <label class="pull-left" style="width:200px;"> Your rating of the potential: </label>
+                <div star-rating rating-value="x['potentialRating']"></div>
+                <label class="pull-left" style="width:200px;"> Review details: </label><br/>
+                <textarea class="pull-left"  style="clear:left; width:400px; height:150px;" ng-model="x['comment']"></textarea>
+                <button ng-click="chg(x['ID'],x['currentRating'],x['potentialRating'], x['comment'])" style="clear:both; margin:10px; float:right;" class="btn btn-info">Save</button>
+            </div>
+        </div>
+
+</div>

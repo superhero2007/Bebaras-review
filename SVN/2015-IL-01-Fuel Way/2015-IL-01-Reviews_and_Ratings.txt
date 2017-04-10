@@ -1,0 +1,133 @@
+How to use this file: 
+- Update the svn
+- Leave the headers (like current:) intact, 
+  so the file can be processed automatically.
+- Add your valued opinion
+- Commit to the svn
+
+Explanation:
+============
+
+review by: Your Name
+current: A number from 1 (completely unsuitable) to 6 (excellent) to
+rate the current state of the task.
+
+potential: A number from 1 to 6 to rate what you think can be made out
+of this task.
+
+comment: Optional comments on how to improve the task
+
+
+----------------------------------
+review by: Christian Datzko
+current: 4
+potential: 5
+comment: 
+
+
+----------------------------------
+review by: Zsuzsa Pluhár
+current: 3
+potential: 3 
+comment: not very original, need more "It's inf."-part
+
+
+----------------------------------
+review by: T. Nishida, Y. Idosaka (JPN)
+current: 2
+potential: 3
+comment: 
+
+
+----------------------------------
+review by: Dan Lessner
+current: 3
+potential: 5 
+comment: It is not said what the numbers on paths are. Why do they have such low amounts in a whole city? Aren't they stashes the two friends keep on the way to be able to make the trip? If they are cities, he would just always refill the tank fully. The question should be "from the given possibilities", they are also others (he could collect fuel by pendling  between 5 and 5).
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------

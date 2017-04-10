@@ -1,0 +1,136 @@
+﻿How to use this file: 
+- Update the svn
+- Leave the headers (like current:) intact, 
+  so the file can be processed automatically.
+- Add your valued opinion
+- Commit to the svn
+
+Explanation:
+============
+
+review by: Your Name
+current: A number from 1 (completely unsuitable) to 6 (excellent) to
+rate the current state of the task.
+
+potential: A number from 1 to 6 to rate what you think can be made out
+of this task.
+
+comment: Optional comments on how to improve the task
+
+
+----------------------------------
+review by: Rostyslav Shpakovych
+current: 6
+potential: 
+comment: 
+
+
+----------------------------------
+review by: Ivo Blöchliger
+current: 4
+potential: 6
+comment: A little too much of a dark humour for my taste. The CS-idea
+behind is really great. Change the story and it might become a really
+great task. For instance, people could just refuse instead of taking a
+lake walk in concrete shoes...
+
+
+----------------------------------
+review by: Daumilas Ardickas
+current: 4
+potential:4 
+comment: 
+
+
+----------------------------------
+review by: Christian Datzko
+current: 2
+potential: 5
+comment: A morbid example right from the Godfather. Not Bebras-suitable. But the task itself is not bad, how about making it some inheritance of some throne in some beaver country?
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------

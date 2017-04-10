@@ -1,0 +1,54 @@
+<div style="height:500px;">
+<div class="col-md-3">
+    <select ng-model="sel" size="5" style="width:100%; height:100%;">
+        <option disabled value="0" style="background-color: rgb(200,200,200);">FolderName</option>
+        <option ng-repeat="list in tasklists" value="{{list.folderName}}" ng-selected='sel==list.folderName'>{{list.folderName}}</option>
+    </select>
+</div>
+<div class="col-md-9" style="height:100%; padding:0;" ng-if="sel!='0'">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <h2 style="padding:0px 20px;">{{sel}}</h2>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#/Tasks/General?id={{sel}}">Infos</a></li>
+                    <li><a href="#/Tasks/Html?id={{sel}}">Html Version</a></li>
+                    <li><a href="#/Tasks/Odt?id={{sel}}">Odt Version</a></li>
+                    <li><a href="#/Tasks/PDF?id={{sel}}">PDF Version</a></li>
+                    <li><a href="#/Tasks/Your?id={{sel}}">Your Review</a></li>
+                    <li><a href="#/Tasks/All?id={{sel}}" style="background-color: #ddd;">All Reviews</a></li>
+                    <li><a href="#/Tasks/Discussion?id={{sel}}">Discussion</a></li>
+                    <li><a href="#/Tasks">&#10006;</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div style="border:1px solid;  height:85%; overflow-y: scroll;">
+        <div style="border:1px solid;">
+            Number of reviews {{data[sel].count}}
+            Average "as of Row" rating {{data[sel].ar}}
+            Average "poetential" rating {{data[sel].p}}
+        </div>
+     
+        <div ng-repeat="y in data[sel]['data']" style="clear:both; border-radius: 5px; border:1px solid; margin:5px; padding:10px; height:30%">
+            <div class="bottom row">
+                <div class="col-md-4">
+                    <label style="width:90px">Review by:</label>
+                    <label style="width:80px"> {{y.author}}</label>
+                    <label style="width:90px">Review data:</label>
+                    <label style="width:80px">{{y.initialReviewDate}} </label><br/>
+                    <label style="width:90px">As of now:</label>
+                    <div star-rating rating-value="y.currentRating" style="display:inline;"></div>
+                    <label style="width:90px">Potential:</label>
+                    <div star-rating rating-value="y.potentialRating" style="display:inline;"></div>
+                </div>
+                <div class="col-md-8">
+                    <textarea readonly style="width:100%; height:100%; border:0;  outline:0;">{{y.comment}}</textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

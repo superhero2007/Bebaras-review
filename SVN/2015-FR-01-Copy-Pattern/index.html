@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>2015-FR-01-Copy-Pattern</title>
+      <script class="module" type="text/javascript" src="modules/jquery-1.7.1.min.js" id="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+      <script class="module" type="text/javascript" src="modules/json2.min.js" id="https://github.com/douglascrockford/JSON-js"></script>
+      <script class="remove" type="text/javascript" src="modules/platform_api.js" ></script>
+      <script class="module" type="text/javascript" src="modules/raphael-min.js" id="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+      <script class="module" type="text/javascript" src="modules/tracker.js" id="http://castor-informatique.fr/tasks/modules/tracker.js"></script>
+      <script class="remove" type="text/javascript" src="modules/gen_task_resources.js"></script>
+      <link class="module" rel="stylesheet" type="text/css" href="modules/styles.css" id="http://castor-informatique.fr/tasks/modules/styles.css" />
+      <script class="remove" type="text/javascript">
+
+       var json = {
+          "id": "http://castor-informatique.fr/tasks/2015/2015-FR-01-Copy-Pattern/",
+          "language": "en",
+          "version": "en.01",
+          "authors": "Mathias Hiron",
+          "license": "CC BY-SA 3.0",
+          "translators": [
+          ],
+          "taskPathPrefix": "",
+          "modulesPathPrefix": "",
+          "browserSupport": [
+          ],
+          "acceptedAnswers": [
+          ],
+          "difficulty": {"1": "hard", "2": "medium", "3": "medium", "4": "easy"},
+          "categories": {ALG : true, INF: true},
+          "answerType": "Interactive, click on illustration",
+          "status": "evaluation"
+      };
+      </script>
+      <!-- put task css here -->
+      <style class="">
+      </style>
+      <script src="task.js"></script>
+    </style>
+  </head>
+  <body>
+      <div id="task">
+          <h1>Copy a pattern</h1>
+          <center>
+            <button onclick="$('.easy, .medium, .hard').hide();$('.easy').show()">Easy version</button>
+            <button onclick="$('.easy, .medium, .hard').hide();$('.medium').show()">Medium version</button>
+            <button onclick="$('.easy, .medium, .hard').hide();$('.hard').show()">Hard version</button>
+          </center>
+          <p>
+            Drag instructions from the left to create a program that will generate the target pattern when repeated
+            <span class="easy">6</span>
+            <span class="medium hard">14</span>
+            times.
+          </p>
+          <p>
+          <center>
+             <img src="pattern_easy.png" class="easy"  style="width:750px"/>
+             <img src="pattern_medium.png" class="medium"  style="width:750px"/>
+             <img src="pattern_hard.png" class="hard"  style="width:750px"/>
+          </center>
+          <script>$('.easy, .medium, .hard').hide();$(".easy").show();</script>
+      </div><!-- task -->
+      <div id="task-solution">
+          <h2>Solution</h2>
+          <center>
+             <img src="pattern_easy_sol.png" class="easy"/>
+             <img src="pattern_medium_sol.png" class="medium"/>
+             <img src="pattern_hard_sol.png" class="hard"/>
+          </center>
+          <h2>It's informatics!</h2>
+          <p>
+          The student was asked to write a program, including a sequence of instruction within a simple loop. For the hard version, the concept of variable is introduced.
+          </p>
+          <script>$('.easy, .medium, .hard').hide();$(".easy").show();</script>
+      </div>
+  </body>
+</html>

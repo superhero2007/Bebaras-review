@@ -1,0 +1,84 @@
+<div style="height:500px;">
+<div class="col-md-3">
+    <select ng-model="sel" size="5" style="width:100%; height:100%;">
+        <option disabled value='0' style="background-color: rgb(200,200,200);">FolderName</option>
+        <option ng-repeat="list in tasklists" value="{{list.folderName}}" ng-selected='sel==list.folderName'>{{list.folderName}}</option>
+    </select>
+</div>
+<div class="col-md-9" style="height:100%; padding:0;" ng-if="sel!='0'">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <h3 style="padding:0px 10px;">{{sel}}</h3>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#/Tasks/General?id={{sel}}" style="background-color: #ddd;">Infos</a></li>
+                    <li><a href="#/Tasks/Html?id={{sel}}">Html Version</a></li>
+                    <li><a href="#/Tasks/Odt?id={{sel}}">Odt Version</a></li>
+                    <li><a href="#/Tasks/PDF?id={{sel}}">PDF Version</a></li>
+                    <li><a href="#/Tasks/Your?id={{sel}}">Your Review</a></li>
+                    <li><a href="#/Tasks/All?id={{sel}}">All Reviews</a></li>
+                    <li><a href="#/Tasks/Discussion?id={{sel}}">Discussion</a></li>
+                    <li><a href="#/Tasks">&#10006;</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div style="border:1px solid; padding:10px; height:74%" ng-repeat="x in real" ng-show="x.folderName==sel">
+        <div class="col-md-6">
+            <label class="pull-left" style="width:140px; clear:left;"> TextID: </label> 
+            <label style="clear:right">{{x.textID}}</label><br/>
+            <label class="pull-left" style="width:140px; clear:left;"> Folder name: </label> 
+            <label style="clear:right">{{x.folderName}}</label><br/>
+            <label class="pull-left" style="width:140px; clear:left;"> Year: </label> 
+            <label style="clear:right">{{x.year}}</label><br/>
+            <label class="pull-left" style="width:140px; clear:left;"> Country Code: </label> 
+            <label style="clear:right">{{x.countryCode}}</label><br/>
+            <label class="pull-left" style="width:140px; clear:left;"> Repository date: </label> 
+            <label style="clear:right">{{x.repositoryDate}}</label><br/>
+            <label class="pull-left" style="width:140px; clear:left;"> Creation date: </label> 
+            <label style="clear:right">{{x.importDate}}</label><br/>
+            <label class="pull-left" style="width:140px; clear:left;"> svnLogin: </label> 
+            <label style="clear:right">{{x.svnLogin}}</label><br/>
+            <label class="pull-left" style="width:140px; clear:left;"> ownerID: </label> 
+            <label style="clear:right">{{x.ownerID}}</label><br/>
+            <label class="pull-left" style="width:140px; clear:left;"> htmlFileName: </label> 
+            <input ng-model="x.htmlFilename" style="clear:right; margin-bottom:5px;" ng-readonly="((x.adminflag)?false:true)">
+            <label class="pull-left" style="width:140px; clear:left;"> odtFileName: </label> 
+            <input ng-model="x.odtFileName" style="clear:right; margin-bottom:5px;" ng-readonly="((x.adminflag)?false:true)">
+            <label class="pull-left" style="width:140px; clear:left;"> pdfFileName: </label> 
+            <input ng-model="x.pdfFileName" style="clear:right; margin-bottom:5px;" ng-readonly="((x.adminflag)?false:true)">
+            <label class="pull-left" style="width:140px; clear:left;"> Last change: </label> 
+            <label style="clear:right">{{x.lastChangeDate}}</label><br/>
+        </div>
+        <div class="col-md-6">
+            <label class="pull-left" style="width:140px; clear:left;"> Assigned Group: </label> 
+            <select style="clear:right; margin-bottom:10px;" ng-model="x.Group" ng-disabled="((x.adminflag)?false:true)">
+                <option ng-repeat="list in grouplists" ng-selected='x.Group==list.name'>{{list.name}}</option>
+            </select><br/>
+            <label class="pull-left" style="width:140px; clear:left;"> Status: </label> 
+            <select style="clear:right; margin-bottom:10px;" ng-model="x.status" ng-disabled="((x.adminflag||x.groupadminflag)?false:true)">
+                <option ng-selected='x.status=="Proposed"'>Proposed</option>
+                <option ng-selected='x.status=="Accepted"'>Accepted</option>
+                <option ng-selected='x.status=="Recommended"'>Recommended</option>
+                <option ng-selected='x.status=="Rejected"'>Rejected</option>
+            </select><br/>
+            <label class="pull-left" style="width:140px; clear:left;"> Status comment: </label> 
+            <input ng-model="x.statusComment" style="clear:right; margin-bottom:5px;" ng-readonly="((x.adminflag||x.groupadminflag)?false:true)"><br/>
+            <label class="pull-left" style="width:140px; clear:left;"> Owner comment: </label> 
+            <input ng-model="x.ownerComment" style="clear:right; margin-bottom:5px;" ng-readonly="((x.adminflag||x.authorflag)?false:true)"><br/>
+            <label class="pull-left" style="width:140px; clear:left;"> Number of reviews: </label> 
+            <label style="clear:right">{{x.Reviews}}</label><br/>
+            <label class="pull-left" style="width:140px; clear:left;"> Average as of now: </label> 
+            <label style="clear:right">{{x.ar}}/6</label><br/>
+            <label class="pull-left" style="width:140px; clear:left;"> Average potential: </label> 
+            <label style="clear:right">{{x.p}}/6</label><br/>
+            <button ng-click="lastsave(x)" class="btn btn-primary pull-right" style="clear:right" ng-show="x.adminflag||x.authorflag||x.groupadminflag">Save</button>
+        </div>
+    </div>
+    <p ng-show="!check">
+        Folder Name don’t match the official format. 
+    </p>
+</div>
+</div>

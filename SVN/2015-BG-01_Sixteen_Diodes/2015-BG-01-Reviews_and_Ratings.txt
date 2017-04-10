@@ -1,0 +1,144 @@
+How to use this file: 
+- Update the svn
+- Leave the headers (like current:) intact, 
+  so the file can be processed automatically.
+- Add your valued opinion
+- Commit to the svn
+
+Explanation:
+============
+
+review by: Your Name
+current: A number from 1 (completely unsuitable) to 6 (excellent) to
+rate the current state of the task.
+
+potential: A number from 1 to 6 to rate what you think can be made out
+of this task.
+
+comment: Optional comments on how to improve the task
+
+
+----------------------------------
+review by: Rostyslav Shpakovych
+current: 4
+potential: 6
+comment: This classical mathematical task is very interesting and very hard.
+Too hard for our contest.
+The main idea of the solution:
+Quantity of different factors of the desired room numbers must be odd.
+(25:1,5,25;     100:1,2,4,5,10,20,25,50,100)
+Unlimited operations number  make this task unsolvable for the majority of participants.
+Maybe better to limit by 10 rooms and 10 opening-closing operations
+
+
+----------------------------------
+review by: Jiri Vanicek
+current: 1
+potential: 2
+comment: 
+There is a question whether this task ist informatics. IMHO, it is mathematial task (contestant must think out that all numbers with odd number of dividers are squares - this is mathematical knowledge). 
+Too difficult to discover solution within 3 minutes (if you dont know such problem before).
+Why infinity steps?
+Too ponderous settings, I recommend improvement this way: instead of checking whether open or closed only turn the key in a lock (which means change the status: to unlock locked and to lock unlocked doors).
+Task for kadets?: lower secondary school pupils dont know anything about 1/2^k.
+
+----------------------------------
+review by: Mauro Torelli
+current: 2
+potential: 2
+comment: Hard. Mostly mathematical.
+
+
+----------------------------------
+review by: Zsuzsa Pluhár
+current: 2
+potential: 4
+comment: It could be better for this ages with a concrete number (100?). See Jiri's comment.
+Informatic could be: It is an iteration where we change the "main" number (used for the command) in the loop-body....
+
+
+----------------------------------
+review by: J.P. Pretti
+current: 4
+potential: 4
+comment: an old (well-known?) nugget; hard but a nice connection between math and CS
+
+
+----------------------------------
+review by: Peter Tomcsanyi
+current: 1
+potential: 1  
+comment: For me the infinite number of operation makes it a clearly math task.
+
+
+----------------------------------
+review by: Dan Lessner
+current: 2
+potential: 5
+comment: well, the most theoretical CS deals with infinite processes... but there is no need for that here. It makes the story completely unbelievable, how does the beaver physically manage to change the status of all those doors? How come he only needs half of the time, when he opens/closes the same amount of doors in each step? Suggestions:  drop the whole infinity, take 100 doors or so, it will work just as well. Take more plausible times (and drop the 1/2^k, it is not needed with a finite structure). The hotel is apparently empty and the beaver is some numbers geek, but whatever (well, maybe something else with doors, but not a hotel, where someone could ask for some privacy?). Rework the question/answer, it can be understood that we ask about the *only* 3 doors that remain open. It will still be too hard (time consuming) for our needs though.  Making some interactive simulation of it would help the most. The goal is to eliminate the need of arithmetic insight (it is beautiful, but the point of CS is that in allows kids to solve such problems without it as well). The arithmetic can be presented (not just stated, like now!) in the explanation part. There is plenty of work to make the taask useful.
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------

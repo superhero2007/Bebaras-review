@@ -1,0 +1,133 @@
+How to use this file: 
+- Update the svn
+- Leave the headers (like current:) intact, 
+  so the file can be processed automatically.
+- Add your valued opinion
+- Commit to the svn
+
+Explanation:
+============
+
+review by: Your Name
+current: A number from 1 (completely unsuitable) to 6 (excellent) to
+rate the current state of the task.
+
+potential: A number from 1 to 6 to rate what you think can be made out
+of this task.
+
+comment: Optional comments on how to improve the task
+
+
+----------------------------------
+review by: Jiri Vanicek
+current: 1
+potential: 1
+comment: This task is out of topic of this contest. What does this task to do with computational thinking? 
+Do you even imagine that in ANY mathematical contest would appear a task like: "Who said >Cogito ergo sum.< ?"
+
+----------------------------------
+review by: Motomasa OMURA (JPN)
+current: 1
+potential: 1
+comment: 
+
+
+----------------------------------
+review by: Dan Lessner
+current: 1
+potential: 1
+comment: I don't see the point of the task (except for the nice reference, but kids will not get it). Also, how is the answer evident?
+
+
+----------------------------------
+review by: Christian Datzko
+current: 1
+potential: 1
+comment: Aren't fotos of logos not allowed? I think, since they are trademarks, you need permission anyway. How is this actually computer science? It does not require and historical knowledge (shouldn't be anyway), it does not generate any historical connections, it does not ... It does however test, if the students are able to read and understand english, since "corporation" is somewhat a synonym to company.
+
+
+----------------------------------
+review by: Zsuzsa Pluhár
+current: 1
+potential: 1
+comment: see p.c.
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------

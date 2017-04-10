@@ -1,0 +1,27 @@
+predicates
+day(symbol)
+tellthrue(symbol)
+telllie(symbol)
+nextday(symbol,symbol)
+findit(symbol).
+clauses
+day(monday).
+day(tuesday).
+day(wednesday).
+day(thursday).
+day(friday).
+day(saturday).
+day(sunday).
+tellthrue(monday).
+tellthrue(wednesday).
+tellthrue(friday).
+telllie(N) if day(N) and not(tellthrue(N)).
+nextday(monday,tuesday).
+nextday(tuesday,wednesday).
+nextday(wednesday,thursday).
+nextday(thursday,friday).
+nextday(friday,saturday).
+nextday(saturday,sunday).
+nextday(sunday,monday).
+findit(N) if day(N) and tellthrue(N) and nextday(N,M) and tellthrue(M).
+findit(N) if day(N) and telllie(N) and nextday(N,M) and telllie(M).

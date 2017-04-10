@@ -1,0 +1,135 @@
+How to use this file: 
+- Update the svn
+- Leave the headers (like current:) intact, 
+  so the file can be processed automatically.
+- Add your valued opinion
+- Commit to the svn
+
+Explanation:
+============
+
+review by: Your Name
+current: A number from 1 (completely unsuitable) to 6 (excellent) to
+rate the current state of the task.
+
+potential: A number from 1 to 6 to rate what you think can be made out
+of this task.
+
+comment: Optional comments on how to improve the task
+
+
+----------------------------------
+review by: Rostyslav Shpakovych
+current: 5
+potential: 
+comment: 
+
+
+----------------------------------
+review by: Gerald Futschek
+current: 5
+potential: 6
+comment: excellent task. In Bebras it is usual that exactly one out of 4 alternatives is correct.
+
+
+----------------------------------
+review by: Christian Datzko
+current: 3
+potential: 3
+comment: Oh, look, another bracelet task. Sorry. Maybe okay for this age group, although I'm not a fan of it.
+
+
+----------------------------------
+review by:Zsuzsa Pluhár 
+current: 
+potential: 
+comment: we had some like this last years
+
+
+----------------------------------
+review by: Motomasa OMURA (JPN)
+current: 3
+potential: 3
+comment: 
+
+
+----------------------------------
+review by: Dan Lessner
+current: 
+potential: 
+comment: Did we have a bracelet task in the yougnest group? If not, this is ok. Although I do not find ok the two answers for the youngest kids. We should have one correct answer, or redisegn it so that it dos not resemble the multiple choice setting.
+
+
+----------------------------------
+review by: Sébastien Combéfis
+current: 2
+potential: 3
+comment:
+- Maybe adding "... made out of colourful beads with different shapes" in the introduction text, to make the task not relying on colours.
+- I agree with Dan, two answers for yougest kids is not suitable.
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------

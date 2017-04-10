@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+<rect x="1" y="1" width="30" height="30" fill="yellow" stroke="black" stroke-width="1" />
+<rect x="31" y="1" width="30" height="30" fill="yellow" stroke="black" stroke-width="1" />
+<rect x="61" y="1" width="30" height="30" fill="yellow" stroke="black" stroke-width="1" />
+<rect x="1" y="31" width="30" height="30" fill="yellow" stroke="black" stroke-width="1" />
+<rect x="31" y="31" width="30" height="30" fill="yellow" stroke="black" stroke-width="1" />
+<rect x="61" y="31" width="30" height="30" fill="yellow" stroke="black" stroke-width="1" />
+<rect x="1" y="61" width="30" height="30" fill="yellow" stroke="black" stroke-width="1" />
+<rect x="31" y="61" width="30" height="30" fill="yellow" stroke="black" stroke-width="1" />
+<rect x="61" y="61" width="30" height="30" fill="yellow" stroke="black" stroke-width="1" />
+<rect x="1" y="91" width="30" height="30" fill="yellow" stroke="black" stroke-width="1" />
+<rect x="31" y="91" width="30" height="30" fill="yellow" stroke="black" stroke-width="1" />
+<rect x="61" y="91" width="30" height="30" fill="yellow" stroke="black" stroke-width="1" />
+<rect x="1" y="121" width="30" height="30" fill="yellow" stroke="black" stroke-width="1" />
+<rect x="31" y="121" width="30" height="30" fill="yellow" stroke="black" stroke-width="1" />
+<rect x="61" y="121" width="30" height="30" fill="yellow" stroke="black" stroke-width="1" />
+<rect x="1" y="151" width="30" height="30" fill="yellow" stroke="black" stroke-width="1" />
+<rect x="31" y="151" width="30" height="30" fill="yellow" stroke="black" stroke-width="1" />
+<rect x="61" y="151" width="30" height="30" fill="yellow" stroke="black" stroke-width="1" />
+<rect x="1" y="1" width="90" height="180" fill="none" stroke="black" stroke-width="2" />
+</svg>

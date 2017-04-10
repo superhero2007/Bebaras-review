@@ -1,0 +1,135 @@
+How to use this file: 
+- Update the svn
+- Leave the headers (like current:) intact, 
+  so the file can be processed automatically.
+- Add your valued opinion
+- Commit to the svn
+
+Explanation:
+============
+
+review by: Your Name
+current: A number from 1 (completely unsuitable) to 6 (excellent) to
+rate the current state of the task.
+
+potential: A number from 1 to 6 to rate what you think can be made out
+of this task.
+
+comment: Optional comments on how to improve the task
+
+
+----------------------------------
+review by: Rostyslav Shpakovych
+current: 6
+potential: 
+comment: 
+
+
+----------------------------------
+review by: Jurate Valatkeviciene
+current: 6
+potential: 6
+comment: 
+
+
+----------------------------------
+review by: Zsuzsa Pluhár
+current: 6
+potential: 6
+comment: 
+
+
+----------------------------------
+review by: Mauro Torelli
+current: 4
+potential: 5
+comment: Easy, but text can be confusing. Not sure the relationship
+with oop inheritance is so close as stated in the explanation
+
+
+----------------------------------
+review by: J.P. Pretti
+current: 3
+potential:5 
+comment: wording will need to capture idea of transitivity by more than an example
+
+
+----------------------------------
+review by: M. Shimabuku (JPN)
+current: 5
+potential: 5
+comment: Need to consider that it is easy to decide its gender by the name.
+
+
+
+----------------------------------
+review by: Monika TOmcsanyiova (SK)
+current: 6
+potential: 6
+comment: 
+
+
+----------------------------------
+review by: Michael Weigend (DE)
+current: 5
+potential: 5
+comment: May be one should work on the „It's informatics“- part, I think we should be careful not to equate the biological concept of inheritence with the informatics concept in OOP (which  is more a methaphorical expression).
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------

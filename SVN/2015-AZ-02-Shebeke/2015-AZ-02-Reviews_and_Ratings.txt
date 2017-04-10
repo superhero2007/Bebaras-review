@@ -1,0 +1,135 @@
+How to use this file: 
+- Update the svn
+- Leave the headers (like current:) intact, 
+  so the file can be processed automatically.
+- Add your valued opinion
+- Commit to the svn
+
+Explanation:
+============
+
+review by: Your Name
+current: A number from 1 (completely unsuitable) to 6 (excellent) to
+rate the current state of the task.
+
+potential: A number from 1 to 6 to rate what you think can be made out
+of this task.
+
+comment: Optional comments on how to improve the task
+
+
+----------------------------------
+review by: Mauro Torelli
+current: 1
+potential: 1
+comment: Arithmetic (counting) task. First (big) picture not useful.
+
+
+----------------------------------
+review by: Zsuzsa Pluhár
+current: 1
+potential: ?
+comment: change text (for example "3 column x 5 row" is not clear for all students)
+It is only about count pieces? Not text for "It's inf"...
+
+
+----------------------------------
+review by: J.P. Pretti
+ 
+current: 1
+potential: 1
+comment: what is the informatics?
+
+
+----------------------------------
+review by: Peter Tomcsanyi (SK)
+current: 1
+potential: 1 
+comment: It's a pure math problem
+
+
+----------------------------------
+review by: Rostyslav Shpakovych
+current: 3
+potential: 3
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------
+review by: 
+current: 
+potential: 
+comment: 
+
+
+----------------------------------

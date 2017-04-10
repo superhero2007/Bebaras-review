@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>2015-CH-01 Postfix Notation</title>
+    <script src="2015-CH-01.js"></script>
+  </head>
+  <body>
+    <p><b>The text here is just a filler.</b> The text in the .odt-document is authoritive</p>
+    <p>Here is a simple calculating machine. It stacks the boxes until a box with an operating sign (+,-,* or /) appears. 
+      Then this operation is carried out with the two underlying boxes.
+    </p>
+    <p>Try these examples:
+      <ul>
+        <li><a href="#" onclick="javascript:task.reload('2 3 +');">2+3 must be entered as <b>2 3 +</b></a></li>
+        <li><a href="#" onclick="javascript:task.reload('10 2 -');">10-2 must be entered as <b>10 2 -</b></a></li>
+        <li><a href="#" onclick="javascript:task.reload('5 2 * 3 +');">5*2+3 must be entered as <b>5 2 * 3 +</b></a></li>
+        <li><a href="#" onclick="javascript:task.reload('5 2 3 * +');">5+2*3 must be entered as <b>5 2 3 * +</b></a></li>
+        <li><a href="#" onclick="javascript:task.reload('8 2 - 3 4 + *');">(8-2)*(3+4) must be entered as <b>8 2 - 3 4 + *</b></a></li>
+      </ul>
+    </p>
+    <p>
+      How must the following computation be entered: 4*(8+3)-2?
+    </p>
+    <input type="text" value="2 3 +" id="taskInput" onChange="task.animation.setup()">
+    <input type="button"  value="Run!" onclick="task.animation.run()">
+    <input type="button"  value="Run one step!" onclick="task.animation.runOneStep()">
+    <input type="button"  value="Stop!" onclick="task.animation.stop()">
+    <input type="button"  value="Skip!" onclick="task.animation.skip()">
+    <input type="button"  value="Reset!" onclick="task.animation.reset()">
+
+    <p><canvas width="640" height="400" id="taskCanvas">
+    Canvas not supported!
+    </canvas></p>
+    <p>
+      <input type="button" value="Reset!" onclick="task.reset()">
+      <input type="button" value="Show current answer" onclick="alert(task.getAnswer())">
+    </p>
+    <p>
+      Inspired by 2014-SI-03 "No parenthesis".
+    </p>
+    <script>
+      task.load();
+    </script>
+  </body>
+</html>

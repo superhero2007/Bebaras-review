@@ -1,0 +1,82 @@
+<html>
+  <head>
+<title>Pebble game</title>
+<script type="text/javascript" src="raphael-min.js"></script>
+<script type="text/javascript" src="pebble.js"></script>
+  </head>
+<body onload="pebble()">
+<h1>Pebble game</h1>
+
+<div>
+<p>
+The goal of this puzzle game is to put all the red pebbles in the
+first box by following one simple rule: <em>a box can be emptied only if
+the number of pebbles in it is equal to the number of the box itself</em>;
+when a box is emptied, its pebbles are distributed equally on all the
+boxes to its left.
+</p>
+
+<p>
+Click on pebbles to empty the corresponding box.
+</p>
+</div>
+
+<div id="canvas">
+</div>
+
+<h2>Question</h2>
+
+<p>Is this puzzle solvable? If yes, give the order of the boxes to
+  follow in emptying the boxes.</p>
+
+<h3>Answer</h3>
+
+<p>A puzzle is solvable only when the winning strategy is applicable
+until the end. The winning strategy chooses always the lowest index
+box which can be emptied. In fact, when two boxes can be chosen, if
+one empties the highest one, the lower will be blocked forever.</p>
+
+<h2>Alternative question</h2>
+
+<p>Give a solvable puzzle with a total of 5 pebbles.</p>
+
+<h3>Answer</h3>
+
+<pre>1,1,3,0,0,0,0</pre>
+
+<h2>Alternative question</h2>
+
+<p>Which is the maximum number of pebbles for a solvable puzzle?</p>
+
+<h3>Answer</h3>
+
+There are only 21 (22 if you consider the trivial one) solvable
+puzzles. The maximum number of pebbles in solvable puzzles is 21. 
+
+<pre>
+1 0,0,0,0,0,0,0,0 (0) 
+2 0,1,0,0,0,0,0,0 (1) 
+3 0,0,2,0,0,0,0,0 (2) 
+4 0,1,2,0,0,0,0,0 (3) 
+5 0,0,1,3,0,0,0,0 (4) 
+6 0,1,1,3,0,0,0,0 (5) 
+7 0,0,0,2,4,0,0,0 (6) 
+8 0,1,0,2,4,0,0,0 (7) 
+9 0,0,2,2,4,0,0,0 (8) 
+10 0,1,2,2,4,0,0,0 (9) 
+11 0,0,1,1,3,5,0,0 (10) 
+12 0,1,1,1,3,5,0,0 (11) 
+13 0,0,0,0,2,4,6,0 (12) 
+14 0,1,0,0,2,4,6,0 (13) 
+15 0,0,2,0,2,4,6,0 (14) 
+16 0,1,2,0,2,4,6,0 (15) 
+17 0,0,1,3,2,4,6,0 (16) 
+18 0,1,1,3,2,4,6,0 (17) 
+19 0,0,0,2,1,3,5,7 (18) 
+20 0,1,0,2,1,3,5,7 (19) 
+21 0,0,2,2,1,3,5,7 (20) 
+22 0,1,2,2,1,3,5,7 (21) 
+</pre>
+
+</body>
+</html>

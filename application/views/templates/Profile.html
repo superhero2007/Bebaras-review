@@ -1,0 +1,52 @@
+<div class="col-md-5">
+    <div style="width:430px;">
+        <fieldset style="border-width: 2px; border-style: solid; border-color: threedface; padding:10px;">
+            <legend style="width:initial; border:0; margin:0;">Your Profile</legend>
+            <label class="pull-left" style="width:220px;"> First Name: </label>
+            <input type="text" ng-model="data.firstName"  style="clear:right"><br/>
+            <label class="pull-left" style="width:220px;"> Last Name: </label>
+            <input type="text" ng-model="data.lastName" style="clear:right"><br/>
+            <label class="pull-left" style="width:220px;"> SVN login: </label>
+            <input type="text" ng-model="data.svnLogin" style="clear:right"><br/>
+            <label class="pull-left" style="width:220px;"> Country: </label>
+            <select style="clear:right">
+                <option value="{{data.countryCode}}">{{data.countryCode}}</option>>
+            </select><br/>
+            <label class="pull-left" style="width:220px;"> Auto-load task: </label>
+            <!--<div toggle-switch class="switch-large switch-off" ng-model="data.autoLoadTasks"></div><br/>-->
+            <toggle-switch ng-model="data.autoLoadTasks" ng-style="{'background-color':((data.autoLoadTasks==true)?'#5cb85c':'#f0f0f0')}" on-label="" off-label=""></toggle-switch>
+            <label class="pull-left" style="width:220px;"> Personal SVN checkout folder: </label>
+            <input type="text" ng-model="data.localCheckoutFolder" style="clear:right"><br/>
+            <label class="pull-left" style="width:220px;"> Role: </label>
+            <label style="clear:right">{{data.role}}</label><br/>
+            <label class="pull-left" style="width:220px;"> Group: </label>
+            <label style="clear:right">{{data.Group}}</label><br/>
+            <label class="pull-left" style="width:220px;"> Role in Group: </label>
+            <label style="clear:right">{{data.groupRole}}</label><br/>
+            <button ng-click="save()" class="btn btn-primary pull-right" style="clear:right">Save</button>
+            <button ng-click="cancel()" class="btn btn-danger pull-right">Cancel</button>
+        </fieldset>
+    </div>
+    <div style="width:430px;">
+        <fieldset style="border-width: 2px; border-style: solid; border-color: threedface; padding:10px;">
+            <legend style="width:initial; border:0; margin:0;">Password Change</legend>
+            <label class="pull-left" style="width:220px;"> Old password </label>
+            <input type="password" ng-model="old"><br/>
+            <label class="pull-left" style="width:220px;"> New password </label>
+            <input type="password" ng-model="new"><br/>
+            <label class="pull-left" style="width:220px;"> New password (again): </label>
+            <input type="password" ng-model="newagain"><br/>
+            <button ng-click="passwordsave()" class="btn btn-primary pull-right" style="clear:right">Save</button>
+            <button ng-click="passwordcancel()" class="btn btn-danger pull-right">Cancel</button>
+        </fieldset>
+    </div>
+</div>
+<div class="col-md-7">
+    <fieldset style="border-width: 2px; border-style: solid; border-color: threedface; padding:10px;">
+        <legend style="width:initial; border:0; margin:0;">Tasks</legend>
+        <select ng-model="sel" size="5" style="width:100%; height:430px;">
+        <option disabled value=0 style="background-color: rgb(200,200,200);">FolderName</option>
+        <option ng-repeat="item in list" value="{{item.ID}}" ng-click="sele(item.ID)">{{item.folderName}}</option>
+        </select>
+    </fieldset>
+</div>
